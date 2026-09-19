@@ -30,12 +30,6 @@ export class CartController {
         return this.cartService.removeItem(req.user!.userId, +prodId);
     }
 
-
-
-
-
-
-
 }
 
 
